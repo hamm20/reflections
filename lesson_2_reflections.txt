@@ -10,3 +10,21 @@ think it offers?
     to the repository. It's the intermediary between the working directory/files and repository. The value
     it offers is to probably to offer more flexibility and control.  
 
+How can you use the staging area to make sure you have one commit per logical change?
+
+    All files that belong to the logical change can be added to the staging area. Any file 
+    changes that do not belong to the logical change can be removed. Everything can be reviewed in 
+    the staging area before committing. 
+
+What are some situations when branches would be helpful in keeping your history organized? 
+How would branches help? 
+
+    Branching could help with history organization by seperating existing working code vs experimental code 
+    and/or new features. his This would help with clarity and lesson confusion.  Seperate tree for working code  
+    and test code/experiemental code. In addition, branching would help with organzing if working with a team. 
+    Individuals could each have a separate branch. 
+ 
+How do the diagrams help you visualize the branch structure?
+
+    By having diagrams, it makes it easier to see where branches start and end and how all are related.
+
