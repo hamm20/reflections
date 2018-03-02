@@ -1,5 +1,29 @@
 When would you want to use a remote repository rather than keeping all your work local? 
 
-   You should use a remote repository if you are going to be collaborating with others, you could also use it
-   as a another backup source. Remote repository is a must if you plan to share your work with others. Another reason to 
-   use remote repository is if you work remotely from different computers.  This would allow you to work on your project. 
+    You should use a remote repository if you are going to be collaborating with others, you could also use it
+    as a another backup source. Remote repository is a must if you plan to share your work with others. Another reason to 
+    use remote repository is if you work remotely from different computers.  This would allow you to work on your project. 
+
+Why might you want to always pull changes manually rather than having Git automatically stay up-to-date
+with your remote repository? 
+
+    Manually pulling can save bandwidth, some people might have limited bandwidth and automatically pulling
+    could be costly. In addition, some people might have limited Internet/remote access. So manually 
+    pulling when they are online. 
+
+Describe the differences between forks, clones, and branches. When would you use one instead of another?
+
+    Forks only exist on GitHub, it is similiar to a clone where you copy a repo but the difference is, you 
+    can't edit the source since you don't have permission. In addition, Forks allows others to see who the
+    original author who wrote the code/files, thus giving them credit for their work and also allows the 
+    author to see changes others have made for possible inclusion into his code. Clones copies a repo and
+    can allow changes to be made. You would use clone to copy a remote repo and make changes between local 
+    and remote. You can also collaborate with others allowing them to make changes too. Branches work off
+    the same repo, they are basically allow you to seperate work and not cause disruption from bugs/errors. 
+    Example would be seperate/branch off for creating/testing a new feature on an existing repo. 
+
+What is the benefit of having a copy of the last known state of the remote stored locally?
+
+    Having a local copy allows you to work offline and know the last known state. Check for changes also
+    doesn't require you to be online until you are ready to push and/or pull. 
+
